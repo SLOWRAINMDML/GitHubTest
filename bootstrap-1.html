@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>부트스트랩 사용 test</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div
+      class="toast align-items-center text-bg-primary border-0"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">Hello, world! This is a toast message.</div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="..." />
+
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" aria-hidden="true">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title placeholder-glow">
+          <span class="placeholder col-6"></span>
+        </h5>
+        <p class="card-text placeholder-glow">
+          <span class="placeholder col-7"></span>
+          <span class="placeholder col-4"></span>
+          <span class="placeholder col-4"></span>
+          <span class="placeholder col-6"></span>
+          <span class="placeholder col-8"></span>
+        </p>
+        <a
+          href="#"
+          tabindex="-1"
+          class="btn btn-primary disabled placeholder col-6"
+        ></a>
+      </div>
+    </div>
+    <div style="height: 100px; background-color: rgba(255, 0, 0, 0.1)">
+      <div
+        class="h-25 d-inline-block"
+        style="width: 120px; background-color: rgba(0, 0, 255, 0.1)"
+      >
+        Height 25%
+      </div>
+      <div
+        class="h-50 d-inline-block"
+        style="width: 120px; background-color: rgba(0, 0, 255, 0.1)"
+      >
+        Height 50%
+      </div>
+      <div
+        class="h-75 d-inline-block"
+        style="width: 120px; background-color: rgba(0, 0, 255, 0.1)"
+      >
+        Height 75%
+      </div>
+      <div
+        class="h-100 d-inline-block"
+        style="width: 120px; background-color: rgba(0, 0, 255, 0.1)"
+      >
+        Height 100%
+      </div>
+      <div
+        class="h-auto d-inline-block"
+        style="width: 120px; background-color: rgba(0, 0, 255, 0.1)"
+      >
+        Height auto
+      </div>
+    </div>
+  </body>
+</html>
